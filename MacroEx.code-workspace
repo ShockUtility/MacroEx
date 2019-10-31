@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		// 파일 리스트에서 감추기
+		"files.exclude": {
+			"**/.DS_Store": true,
+			".vscode": true,
+			"e2e": true,
+			"node_modules": true
+		},
+
+		// 검색에서 제외시킬 폴더
+		"search.exclude": {
+			"**/.vscode": true,
+			"**/e2e": true,
+			"**/node_modules": true,
+			"**/bower_components": true
+		},
+
+		// 에디터 셋팅
+		"editor.tabSize": 2,
+		"editor.insertSpaces": true,
+		"editor.trimAutoWhitespace": true,
+	}
+}
